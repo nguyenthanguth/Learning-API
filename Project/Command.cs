@@ -45,9 +45,10 @@ namespace Learning_API_Training
 
                 // Kiểm tra Layer đã có trong bản vẽ hay chưa
                 // Nếu có thì return (ngưng thực thi câu lệnh)
-                if (lt.Has("SlabLayout") == true)
+                string layerName = "SlabLayout";
+                if (lt.Has(layerName) == true)
                 {
-                    ed.WriteMessage("Đã có layer name");
+                    ed.WriteMessage($"Đã có layer name {layerName}");
                     return;
                 }
 
@@ -63,6 +64,8 @@ namespace Learning_API_Training
                 tr.Commit();
             }
         }
+
+
 
         [CommandMethod("QWE")]
         // public void ~> thực hiện câu lệnh
