@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\Learning-API\Learning Autocad API\bin\Debug\Learning Autocad API.dll
+C:\Users\Admin\Documents\GitHub\Learning-API\Learning Autocad API\bin\Debug\Learning Autocad API.pdb
+C:\Users\Admin\Documents\GitHub\Learning-API\Learning Autocad API\obj\Debug\Learning Autocad API.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\Learning-API\Learning Autocad API\obj\Debug\Learning Autocad API.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\Learning-API\Learning Autocad API\obj\Debug\Learning Autocad API.dll
+C:\Users\Admin\Documents\GitHub\Learning-API\Learning Autocad API\obj\Debug\Learning Autocad API.pdb
