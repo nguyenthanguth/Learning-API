@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -51,18 +52,35 @@ namespace Learning_API_Training
 
             if (psr.Status == PromptStatus.OK)
             {
+                ArrayList lengthArr = new ArrayList();
                 foreach (ObjectId oid in ss.GetObjectIds())
                 {
                     if (oid.ObjectClass.Name == "AcDbLine")
                     {
                         using (Transaction tr = db.TransactionManager.StartTransaction())
                         {
-                            Circle cc = tr.GetObject(oid, OpenMode.ForRead) as Circle;
-                            ed.WriteMessage("\nRadius = " + cc.Radius);
-                            ed.WriteMessage("\nDiameter = " + cc.Diameter);
+                            Line li = tr.GetObject(oid, OpenMode.ForRead) as Line;
+                            ed.WriteMessage("\nLength = " + li.Length);
+
+                            lengthArr.Add(li.Length);
+
+                            tr.Commit();
                         }
                     }
                 }
+
+                double tong = 0;
+                foreach (double length in lengthArr)
+                {
+                    tong = tong + length;
+                }
+
+                for (int i = 0; i < lengthArr.Count; i++)
+                {
+                    tong = tong + double.Parse(lengthArr[i].ToString());
+                }
+
+                MessageBox.Show("Tổng chiều dài là : " + tong, "Tính tổng chiều dài");
             }
             else
             {

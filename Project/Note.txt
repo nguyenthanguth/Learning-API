@@ -1,3 +1,14 @@
-﻿PROPERTIES
-METHODS
-EVENTS
+﻿arr = [5, 9, 3, 10, 15]
+
+arr.Count = 5
+
+arr.sort()
+=> [3, 5, 9, 10]
+
+arr[arr.Length-1]
+=> max
+
+arr.Reverse()
+=> [10, 9, 5, 3]
+
+arr[0] = 10
