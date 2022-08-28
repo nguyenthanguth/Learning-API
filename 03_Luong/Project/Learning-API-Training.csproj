@@ -32,23 +32,23 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="accoremgd">
-      <HintPath>..\..\BIM-Partners-Vina\References\AutoCad 2020\accoremgd.dll</HintPath>
+      <HintPath>..\accoremgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="acdbmgd">
-      <HintPath>..\..\BIM-Partners-Vina\References\AutoCad 2020\acdbmgd.dll</HintPath>
+      <HintPath>..\acdbmgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="acdbmgdbrep">
-      <HintPath>..\..\BIM-Partners-Vina\References\AutoCad 2020\acdbmgdbrep.dll</HintPath>
+      <HintPath>..\acdbmgdbrep.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="acmgd">
-      <HintPath>..\..\BIM-Partners-Vina\References\AutoCad 2020\acmgd.dll</HintPath>
+      <HintPath>..\acmgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="AcMPolygonMGD">
-      <HintPath>..\..\BIM-Partners-Vina\References\AutoCad 2020\AcMPolygonMGD.dll</HintPath>
+      <HintPath>..\AcMPolygonMGD.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -63,7 +63,9 @@
   <ItemGroup>
     <Compile Include="Command.cs" />
     <Compile Include="CreateNewLayer.cs" />
+    <Compile Include="note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Selectobject.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
