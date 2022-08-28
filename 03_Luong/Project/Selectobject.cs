@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Collections;
 
 // using AutoCad
+using System.Windows.Forms;
 using Autodesk.AutoCAD.ApplicationServices;
 using Autodesk.AutoCAD.DatabaseServices;
 using Autodesk.AutoCAD.EditorInput;
@@ -39,17 +40,64 @@ namespace Learning_API_Training
             PromptSelectionResult psr = ed.GetSelection(pso);
             SelectionSet ss = psr.Value;
 
-            foreach (ObjectId ob in ss.GetObjectIds())
+            //Đặt câu điều kiện: nếu kết quả đúng
+            if (psr.Status == PromptStatus.OK)
             {
-                if (ob.ObjectClass.Name == "AcDbCircle")
+                ArrayList radiusArr = new ArrayList();
+                foreach (ObjectId ob in ss.GetObjectIds())
                 {
-                    using(Transaction tr = db.TransactionManager.StartTransaction())
+
+                    if (ob.ObjectClass.Name == "AcDbCircle")
                     {
-                        Circle cc = tr.GetObject(ob,OpenMode.ForRead) as Circle;
-                        ed.WriteMessage("\nRadius la:" + cc.Radius);
+                        using (Transaction tr = db.TransactionManager.StartTransaction())
+                        {
+                            Circle cc = tr.GetObject(ob, OpenMode.ForRead) as Circle;
+                            ed.WriteMessage("\nRadius la:" + cc.Area);
+                            radiusArr.Add(cc.Area);
+                            tr.Commit();
+                        }
                     }
                 }
+                double tong = 0;
+                foreach (double Area in radiusArr)
+                {
+                    tong = tong + Area;
+                }
+                MessageBox.Show("Tổng bán kính là:" + tong, "Bảng tính tổng");
+
+                //for (int i = 0; i < radiusArr.Count; i++)
+                //{
+                //    tong = tong + double.Parse(radiusArr{ i}.ToString();
+                //}
+
             }
+            else
+            {
+                //Lệnh đầu tiên là dòng thứ 2, lệnh sau là hàng dưới
+                MessageBox.Show("Bạn vừa hủy lệnh bằng phím ESE", "Thông báo");
+                using (Transaction tr = db.TransactionManager.StartTransaction())
+                {
+                    // Open the Block table for read
+                    BlockTable acBlkTbl;
+                    acBlkTbl = tr.GetObject(db.BlockTableId,
+                                                 OpenMode.ForRead) as BlockTable;
+
+                    // Open the Block table record Model space for write
+                    BlockTableRecord acBlkTblRec;
+                    acBlkTblRec = tr.GetObject(acBlkTbl[BlockTableRecord.ModelSpace],
+                                                    OpenMode.ForWrite) as BlockTableRecord;
+
+                    // Create a line that starts at 5,5 and ends at 12,3
+                    Line acLine = new Line(new Point3d(0, 5, 0),
+                                           new Point3d(2, 3, 0));
+                    // Add the new object to the block table record and the transaction
+                    acBlkTblRec.AppendEntity(acLine);
+                    tr.AddNewlyCreatedDBObject(acLine, true);
+
+                    tr.Commit();
+                }
+            }
+
         }
     }
 }
