@@ -3,3 +3,9 @@ C:\Users\BTC to 100.000$\OneDrive\Documents\GitHub\Learning-API\Project\bin\Debu
 C:\Users\BTC to 100.000$\OneDrive\Documents\GitHub\Learning-API\Project\obj\Debug\Learning-API-Training.csproj.CoreCompileInputs.cache
 C:\Users\BTC to 100.000$\OneDrive\Documents\GitHub\Learning-API\Project\obj\Debug\Command.dll
 C:\Users\BTC to 100.000$\OneDrive\Documents\GitHub\Learning-API\Project\obj\Debug\Command.pdb
+C:\Users\BIM_ESC\Documents\GitHub\Learning-API\Project\bin\Debug\Command.dll
+C:\Users\BIM_ESC\Documents\GitHub\Learning-API\Project\bin\Debug\Command.pdb
+C:\Users\BIM_ESC\Documents\GitHub\Learning-API\Project\obj\Debug\Learning-API-Training.csproj.AssemblyReference.cache
+C:\Users\BIM_ESC\Documents\GitHub\Learning-API\Project\obj\Debug\Learning-API-Training.csproj.CoreCompileInputs.cache
+C:\Users\BIM_ESC\Documents\GitHub\Learning-API\Project\obj\Debug\Command.dll
+C:\Users\BIM_ESC\Documents\GitHub\Learning-API\Project\obj\Debug\Command.pdb

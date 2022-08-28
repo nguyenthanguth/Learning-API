@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 // using AutoCad
+// using NameSpace
 using Autodesk.AutoCAD.ApplicationServices;
 using Autodesk.AutoCAD.DatabaseServices;
 using Autodesk.AutoCAD.EditorInput;
@@ -29,6 +31,78 @@ namespace Learning_API_Training
 {
     public class Command
     {
+        [CommandMethod("QUETCHON")]
+        public void cmdQUETCHON()
+        {
+            Document doc = Application.DocumentManager.MdiActiveDocument;
+            Editor ed = doc.Editor;
+            Database db = doc.Database;
+
+            //PromptPointOptions ppo = new PromptPointOptions("Pick diem tren man hinh autocad");
+            //PromptPointResult ppr = ed.GetPoint(ppo);
+
+            PromptSelectionOptions pso = new PromptSelectionOptions();
+            pso.MessageForAdding = "Quet Chon Doi Tuong";
+            pso.AllowDuplicates = false;
+            pso.RejectObjectsOnLockedLayers = true;
+
+            PromptSelectionResult psr = ed.GetSelection(pso);
+            SelectionSet ss = psr.Value;
+
+            if (psr.Status == PromptStatus.OK)
+            {
+                foreach (ObjectId oid in ss.GetObjectIds())
+                {
+                    if (oid.ObjectClass.Name == "AcDbLine")
+                    {
+                        using (Transaction tr = db.TransactionManager.StartTransaction())
+                        {
+                            Circle cc = tr.GetObject(oid, OpenMode.ForRead) as Circle;
+                            ed.WriteMessage("\nRadius = " + cc.Radius);
+                            ed.WriteMessage("\nDiameter = " + cc.Diameter);
+                        }
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Bạn vừa huỷ lệnh bằng phím ESC", "Thông báo");
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         [CommandMethod("NewLayer")]
         public void cmdNewLayer()
         {
