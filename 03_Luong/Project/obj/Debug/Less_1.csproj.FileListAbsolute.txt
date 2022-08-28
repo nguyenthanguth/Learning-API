@@ -1,0 +1,5 @@
+C:\Users\BIM_ESC\Documents\GitHub\Learning-API\Start\Less_1\bin\Debug\Less_1.dll
+C:\Users\BIM_ESC\Documents\GitHub\Learning-API\Start\Less_1\bin\Debug\Less_1.pdb
+C:\Users\BIM_ESC\Documents\GitHub\Learning-API\Start\Less_1\obj\Debug\Less_1.csproj.CoreCompileInputs.cache
+C:\Users\BIM_ESC\Documents\GitHub\Learning-API\Start\Less_1\obj\Debug\Less_1.dll
+C:\Users\BIM_ESC\Documents\GitHub\Learning-API\Start\Less_1\obj\Debug\Less_1.pdb
