@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\github\Learning-API\03_Luong\SETUP_NEW\SETUP_NEW\bin\Debug\SETUP_NEW.dll
+C:\Users\Admin\Desktop\github\Learning-API\03_Luong\SETUP_NEW\SETUP_NEW\bin\Debug\SETUP_NEW.pdb
+C:\Users\Admin\Desktop\github\Learning-API\03_Luong\SETUP_NEW\SETUP_NEW\bin\Debug\accoremgd.dll
+C:\Users\Admin\Desktop\github\Learning-API\03_Luong\SETUP_NEW\SETUP_NEW\bin\Debug\acdbmgd.dll
+C:\Users\Admin\Desktop\github\Learning-API\03_Luong\SETUP_NEW\SETUP_NEW\bin\Debug\acdbmgdbrep.dll
+C:\Users\Admin\Desktop\github\Learning-API\03_Luong\SETUP_NEW\SETUP_NEW\bin\Debug\acmgd.dll
+C:\Users\Admin\Desktop\github\Learning-API\03_Luong\SETUP_NEW\SETUP_NEW\bin\Debug\AcMPolygonMGD.dll
+C:\Users\Admin\Desktop\github\Learning-API\03_Luong\SETUP_NEW\SETUP_NEW\obj\Debug\SETUP_NEW.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\github\Learning-API\03_Luong\SETUP_NEW\SETUP_NEW\obj\Debug\SETUP_NEW.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\github\Learning-API\03_Luong\SETUP_NEW\SETUP_NEW\obj\Debug\SETUP_NEW.csproj.CopyComplete
+C:\Users\Admin\Desktop\github\Learning-API\03_Luong\SETUP_NEW\SETUP_NEW\obj\Debug\SETUP_NEW.dll
+C:\Users\Admin\Desktop\github\Learning-API\03_Luong\SETUP_NEW\SETUP_NEW\obj\Debug\SETUP_NEW.pdb

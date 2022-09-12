@@ -9,3 +9,9 @@ C:\Users\MKC\OneDrive\Desktop\Python\Learning-API\03_Luong\Project\obj\Debug\Com
 C:\Users\MKC\OneDrive\Desktop\Python\Learning-API\03_Luong\Project\obj\Debug\Command.pdb
 C:\Users\MKC\OneDrive\Desktop\Python\Learning-API\03_Luong\Project\bin\Debug\Command.dll
 C:\Users\MKC\OneDrive\Desktop\Python\Learning-API\03_Luong\Project\bin\Debug\Command.pdb
+C:\Users\Admin\Desktop\github\Learning-API\03_Luong\Project\bin\Debug\Command.dll
+C:\Users\Admin\Desktop\github\Learning-API\03_Luong\Project\bin\Debug\Command.pdb
+C:\Users\Admin\Desktop\github\Learning-API\03_Luong\Project\obj\Debug\Learning-API-Training.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\github\Learning-API\03_Luong\Project\obj\Debug\Learning-API-Training.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\github\Learning-API\03_Luong\Project\obj\Debug\Command.dll
+C:\Users\Admin\Desktop\github\Learning-API\03_Luong\Project\obj\Debug\Command.pdb
