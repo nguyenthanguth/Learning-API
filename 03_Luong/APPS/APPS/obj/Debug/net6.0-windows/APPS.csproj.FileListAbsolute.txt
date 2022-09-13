@@ -19,3 +19,23 @@ C:\Users\Admin\Desktop\github\Learning-API\03_Luong\APPS\APPS\obj\Debug\net6.0-w
 C:\Users\Admin\Desktop\github\Learning-API\03_Luong\APPS\APPS\obj\Debug\net6.0-windows\APPS.pdb
 C:\Users\Admin\Desktop\github\Learning-API\03_Luong\APPS\APPS\obj\Debug\net6.0-windows\APPS.genruntimeconfig.cache
 C:\Users\Admin\Desktop\github\Learning-API\03_Luong\APPS\APPS\obj\Debug\net6.0-windows\ref\APPS.dll
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\bin\Debug\net6.0-windows\APPS.exe
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\bin\Debug\net6.0-windows\APPS.deps.json
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\bin\Debug\net6.0-windows\APPS.runtimeconfig.json
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\bin\Debug\net6.0-windows\APPS.dll
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\bin\Debug\net6.0-windows\APPS.pdb
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\obj\Debug\net6.0-windows\APPS.csproj.AssemblyReference.cache
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\obj\Debug\net6.0-windows\APPS_MarkupCompile.cache
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\obj\Debug\net6.0-windows\APPS.g.resources
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\obj\Debug\net6.0-windows\APPS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\obj\Debug\net6.0-windows\APPS.AssemblyInfoInputs.cache
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\obj\Debug\net6.0-windows\APPS.AssemblyInfo.cs
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\obj\Debug\net6.0-windows\APPS.csproj.CoreCompileInputs.cache
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\obj\Debug\net6.0-windows\APPS.dll
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\obj\Debug\net6.0-windows\refint\APPS.dll
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\obj\Debug\net6.0-windows\APPS.pdb
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\obj\Debug\net6.0-windows\APPS.genruntimeconfig.cache
+C:\Users\BIM\Desktop\LUONG VO\autobuy\Learning-API\03_Luong\APPS\APPS\obj\Debug\net6.0-windows\ref\APPS.dll
