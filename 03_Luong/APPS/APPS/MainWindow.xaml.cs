@@ -27,7 +27,7 @@ namespace APPS
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            Properties.Settings.Default.ABC
         }
     }
 }
